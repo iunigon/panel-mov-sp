@@ -1,12 +1,11 @@
 # 1. Site Settings
-title               : pRoJEct-VeXEd
-owner               : "DeerRIDER"
-url                : "https://akiritsu.github.io"
-baseurl            : "/pRoJEct-VeXEd"
+title               : PANEL / MOV /  Private / Spacescraper / UNIGON
+owner               : "The Republic of the Spacescraper"
+url                : "https://mov-sp.unigon.net"
+baseurl            : ""
 permalink           : /:title/
-description         : "A hacker-style note-keeping website template."
-markdown            : kramdown
-statement           : "Designed by DeerRIDER, All Rights Reserved"
+description         : "The panel for accessing, controlling, collaborating, organizing, programming, networking, hacking, etc. on the MOV (Spacescraper)."markdown            : kramdown
+statement           : "THE MOV PANEL IS HOSTED BY THE REP. OF THE SPACESCRAPER, WITH DIRECTION FROM  UNIGON"
 bgtext              : "ABCFGHKLMNPQRSVWXYZabcdefghijklmnopqrstuvwxyz@#$%&*+-;/[]<>~" # texts randomly displayed in background
 
 # 2. Your Collections
@@ -73,10 +72,10 @@ defaults:
       collection_list     : true        # whether show archive button by default
       home_btn            : true        # whether show home by default
       maximize            : true        # whether show maximize button by default
-      encrypted_text      : false       # whether use encrytion function by default
+      encrypted_text      : true       # whether use encrytion function by default
       toc                 : true        # whether show table of content by default
       toc_level           : 3           # the toc depth by default
-      author              : "DeerRIDER" # author name by default
+      author              : "MOV COMMUNICATIONS" # author name by default
       show_date           : true        # whether show date message by default
       category            :             # category by default
       post_list           : false       # whether show list of post by default      
