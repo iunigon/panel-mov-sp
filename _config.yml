@@ -1,12 +1,12 @@
 # 1. Site Settings
-title               : PANEL - PRIVATE - MOV -
+title               : PANEL - PRIVATE - MOV
 owner               : "The Republic of the Spacescraper"
 url                : "https://akiritsu.github.io"
 baseurl            : "/pRoJEct-VeXEd"
 permalink           : /:title/
-description         : "test"
+description         : "The panel for accessing, controlling, collaborating, organizing, programming, networking, hacking, etc. on the MOV (Spacescraper)."
 markdown            : kramdown
-statement           : "Designed by DeerRIDER, All Rights Reserved"
+statement           : "THE MOV PANEL IS HOSTED BY THE REP. OF THE SPACESCRAPER, WITH ASSISTANCE FROM UNIGON."
 bgtext              : "ABCFGHKLMNPQRSVWXYZabcdefghijklmnopqrstuvwxyz@#$%&*+-;/[]<>~" # texts randomly displayed in background
 
 # 2. Your Collections
