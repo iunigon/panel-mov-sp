@@ -1,12 +1,12 @@
 # 1. Site Settings
-title               : PANEL / MOV /  Private / Spacescraper / UNIGON
-owner               : "The Republic of the Spacescraper"
-url                : "https://mov-sp.unigon.net"
-baseurl            : ""
+title               : pRoJEct-VeXEd
+owner               : "DeerRIDER"
+url                : "https://akiritsu.github.io"
+baseurl            : "/pRoJEct-VeXEd"
 permalink           : /:title/
-description         : "The panel for accessing, controlling, collaborating, organizing, programming, networking, hacking, etc. on the MOV (Spacescraper)."
+description         : "A hacker-style note-keeping website template."
 markdown            : kramdown
-statement           : "THE MOV PANEL IS HOSTED BY THE REP. OF THE SPACESCRAPER, WITH DIRECTION FROM  UNIGON"
+statement           : "Designed by DeerRIDER, All Rights Reserved"
 bgtext              : "ABCFGHKLMNPQRSVWXYZabcdefghijklmnopqrstuvwxyz@#$%&*+-;/[]<>~" # texts randomly displayed in background
 
 # 2. Your Collections
@@ -23,7 +23,6 @@ collection_order    :
     "physics",
     "my_notes",
     "portfolio",
-    "notes",
   ]
 collections:
   math:   
@@ -31,16 +30,6 @@ collections:
     permalink       : /:collection/:title/
     sort_by         : date
     alias           : "Mathematics"
-  directories:   
-    output          : true
-    permalink       : /:collection/:title/
-    sort_by         : date
-    alias           : Directories
-  hacking:   
-    output          : true
-    permalink       : /:collection/:title/
-    sort_by         : date
-    alias           : Hackers
   portfolio:
     output          : true
     permalink       : /:collection/:title/
@@ -61,7 +50,7 @@ collections:
   finance:
     output          : true
     permalink       : /:collection/:title/
-  notes:
+  my_notes:
     output          : true
     permalink       : /:collection/:title/
     # An alias should be given or the UNDERSCORE will appeared 
@@ -84,10 +73,10 @@ defaults:
       collection_list     : true        # whether show archive button by default
       home_btn            : true        # whether show home by default
       maximize            : true        # whether show maximize button by default
-      encrypted_text      : true       # whether use encrytion function by default
+      encrypted_text      : false       # whether use encrytion function by default
       toc                 : true        # whether show table of content by default
       toc_level           : 3           # the toc depth by default
-      author              : "MOV COMMUNICATIONS TEAM" # author name by default
+      author              : "DeerRIDER" # author name by default
       show_date           : true        # whether show date message by default
       category            :             # category by default
       post_list           : false       # whether show list of post by default      
@@ -95,16 +84,16 @@ defaults:
       footer              : true        # whether show footer by default
 
 # 5. Social Media Accounts
-email               : "contact@unigon.net" 
+email               : "https://github.com/akiritsu/pRoJEct-VeXEd" 
 linkedin            : 
-github              : "iunigon" 
+github              : "just-test" 
 gitlab              : 
-website             : "https://unigon.net"
-twitter             : 
-facebook            : 
+website             : "https://github.com/akiritsu/pRoJEct-VeXEd"
+twitter             : "just-test"
+facebook            : "just-test"
 instagram           : 
-youtube             : 
-steam               : 
+youtube             : "just-test"
+steam               : "just-test"
 weibo               :
       
 # 6. Where things are
