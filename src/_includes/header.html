@@ -43,12 +43,10 @@
                 </i>
               </a>
               <!-- access token -->
-              {% if page.encrypted_text == true %}
               <a class="header_btn" id="acs_btn" onclick="apply_token()">
                 <i class="fa btn_icon fa-key">
-                  {% if page.btn_text != false %}
-                  <p class="btn_text">Token</p>
-                  {% endif %}
+                  <a data-target="#myModal" href="#myModal" class="btn_text"><p>Storage</p></a>
+                  {% include storagemodal.html}
                 </i>
               </a>
               <textarea
@@ -57,7 +55,6 @@
                 id="acs_tkn"
                 rows="1"
               ></textarea>
-              {% endif %}
             </li>
             <!-- right header -->
             <span class="span_right">
