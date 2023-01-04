@@ -42,10 +42,13 @@
                   <p class="btn_text" id="chat_btn">Chat</p>
                 </i>
               </a>
-              <a class="header_btn" id="myModal" data-target="#myModal" href="#myModal">
+              <!-- access token -->
+              {% if page.encrypted_text == true %}
+              <a class="header_btn" id="acs_btn" onclick="apply_token()">
                 <i class="fa btn_icon fa-key">
-                  <p  class="btn_text" id="myModal">Storage</p>
-                  {% include storagemodal.html}
+                  {% if page.btn_text != false %}
+                  <p class="btn_text">Token</p>
+                  {% endif %}
                 </i>
               </a>
               <textarea
