@@ -2,7 +2,7 @@
 title               : PANEL - PRIVATE - MOV
 owner               : "The Republic of the Spacescraper"
 url                : "https://panel-mov-sp.unigon.net"
-baseurl            : "./secure/VV9LITZRsSvP9b5s1jaF/"
+baseurl            : "/secure/VV9LITZRsSvP9b5s1jaF/"
 permalink           : /:title/
 description         : "The panel for accessing, controlling, collaborating, organizing, programming, networking, hacking, etc. on the MOV (Spacescraper)."
 markdown            : kramdown
